@@ -4,7 +4,7 @@ require_once __DIR__ . '/../Controllers/StudentController.php';
 require_once __DIR__ . '/../Controllers/TeacherController.php';
 
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$path = preg_replace('/^\/(crud|public)/', '', $path);
+$path = preg_replace('/^\/(crud.php|public)/', '', $path);
 $path = trim($path, '/');
 $segments = explode('/', $path);
 
