@@ -90,8 +90,8 @@ Este guia descreve os passos necessários para configurar o ambiente de desenvol
 Abra o seu terminal na pasta `htdocs` do XAMPP:
 ```bash
 cd c:/xampp/htdocs
-git clone https://github.com/JoaoEmanoel2005/CRUD.php.git
-cd CRUD.php
+git clone https://github.com/JoaoEmanoel2005/crud.php.git
+cd crud.php
 composer install
 ```
 
@@ -132,10 +132,10 @@ CREATE TABLE Students (
 Após realizar todo processo, podera realizar o acesso pelas rotas:
 ```Bash
 Para estudantes
-http://localhost/crud/students
+http://localhost/crud.php/students
 
 Para professores
-http://localhost/crud/teachers
+http://localhost/crud.php/teachers
 ```
 
 * **Desenvolvido por Joao Emanoel - Conecte-se comigo no [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-emanoell-6b2b66268/)**
