@@ -1,0 +1,16 @@
+# Pastas e arquivos do Composer
+/vendor/
+
+# Variáveis de ambiente (Segurança!)
+.env
+
+# Pastas de IDEs
+.vscode/
+.idea/
+
+# Arquivos de sistema (OS)
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

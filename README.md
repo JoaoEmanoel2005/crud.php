@@ -83,13 +83,16 @@ Este guia descreve os passos necessários para configurar o ambiente de desenvol
 
 ### Pré-requisitos
 * **Xampp:** Para o servidor Apache e MySQL.
-* **Git:** Para clonar o repositorio (opcional)
+* **Git:** Para clonar o repositorio (opcional).
+* **Composer:** Para gerenciar as dependências do projeto.
 
 ### 1. Clone o repositório
 Abra o seu terminal na pasta `htdocs` do XAMPP:
 ```bash
 cd c:/xampp/htdocs
 git clone https://github.com/JoaoEmanoel2005/CRUD.php.git
+cd CRUD.php
+composer install
 ```
 
 ### 2. Inicie o servidor
